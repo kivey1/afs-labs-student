@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: feature-toggle
+  name: feature-toggle 
   namespace: kivey
 data:
-LOCATION_FEATURE_ENABLED: "False"
+  LOCATION_FEATURE_ENABLED: "False"
